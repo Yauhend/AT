@@ -34,8 +34,8 @@ public class HomePage extends PageObject {
 
 
     public void enterSearch(String city) {
-        this.city.clear();
-        this.city.sendKeys(city);
+        city.clear();
+        city.sendKeys(city);
     }
 
     public void clickCheckin() {
