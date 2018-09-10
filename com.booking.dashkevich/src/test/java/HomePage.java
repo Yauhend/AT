@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 public class HomePage extends PageObject {
 
 
-    @FindBy(xpath = "//*[@id=\"sort_by\"]/ul/li[2]/a") //"//*[@id=\"right\"]/div[3]/div/div/div/h1")
+    @FindBy(xpath = "//*[@id=\"sort_by\"]/ul/li[2]/a") 
     private WebElement resultsHeader;
 
     @FindBy(id = "ss")
